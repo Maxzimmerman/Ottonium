@@ -9,6 +9,8 @@ Console.WriteLine("Das Ziel ist es, alle Lichter auszuschalten.");
 while (!spiel.IstGelöst())
 {
     Console.WriteLine("\nAktuelles Spielfeld:");
+    Console.WriteLine("");
+    Console.WriteLine("Grün = An      Cyan = Aus");
     spiel.SpielfeldAnzeigen();
 
     Console.Write("\nBitte geben Sie die Zeilennummer (Horizontale) der LED an : ");
